@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+	  <Version>2.0.2</Version>
+	  <Author>Sadaqat Hussain</Author>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InfluxDB.Client" Version="5.1.0" />
+    <ProjectReference Include="..\InfluxData.Net.Common\InfluxData.Net.Common.csproj" />
+  </ItemGroup>
+
+</Project>
